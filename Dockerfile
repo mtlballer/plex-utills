@@ -1,5 +1,7 @@
 FROM python:3.9.16-slim-bullseye
 
+LABEL version="1.0.0"
+
 LABEL maintainer="JKirkcaldy" \
       support="https://github.com/jkirkcaldy/plex-utills" \
       discord="https://discord.gg/z3FYhHwHMw"
