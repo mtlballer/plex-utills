@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-22.04    
     env:      
       DOCKER_REGISTRY: hub.docker.com
-      DOCKER_IMAGE: fognetx/plex-utills      
+      DOCKER_IMAGE: mtlballer/plex-utills      
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}               
     steps:    
